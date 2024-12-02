@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VNPTeKYCSampleSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tích hợp SDK VNPT eKYC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vs8-rH-SkL">
+                                <rect key="frame" x="16" y="91" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYJ-9q-6IV">
+                                <rect key="frame" x="16" y="144" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078431372548" green="0.83921568627450982" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="1Yx-mg-fW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="eKYC luồng đầy đủ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wCB-Vy-Knc">
+                                <rect key="frame" x="16" y="208" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078431372548" green="0.83921568627450982" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="sgO-60-oQD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thực hiện OCR giấy tờ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofJ-Sl-n5E">
+                                <rect key="frame" x="16" y="272" width="361" height="48"/>
+                                <color key="backgroundColor" red="0.090196078431372548" green="0.83921568627450982" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Chk-sd-ZGz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thực hiện kiểm tra khuôn mặt">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vs8-rH-SkL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="CHe-I0-yHz"/>
+                            <constraint firstAttribute="trailing" secondItem="bYJ-9q-6IV" secondAttribute="trailing" constant="16" id="I69-Cq-EKe"/>
+                            <constraint firstItem="wCB-Vy-Knc" firstAttribute="top" secondItem="bYJ-9q-6IV" secondAttribute="bottom" constant="16" id="SIW-2t-7oX"/>
+                            <constraint firstItem="wCB-Vy-Knc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Tzg-LK-r3L"/>
+                            <constraint firstItem="Vs8-rH-SkL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="Xkj-xn-rgR"/>
+                            <constraint firstAttribute="trailing" secondItem="Vs8-rH-SkL" secondAttribute="trailing" constant="16" id="bgI-X7-gHq"/>
+                            <constraint firstAttribute="trailing" secondItem="ofJ-Sl-n5E" secondAttribute="trailing" constant="16" id="bsf-Lb-6Ms"/>
+                            <constraint firstItem="ofJ-Sl-n5E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="fju-yS-8ch"/>
+                            <constraint firstItem="bYJ-9q-6IV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="s40-mS-f0L"/>
+                            <constraint firstItem="bYJ-9q-6IV" firstAttribute="top" secondItem="Vs8-rH-SkL" secondAttribute="bottom" constant="32" id="sxi-Tg-5XJ"/>
+                            <constraint firstAttribute="trailing" secondItem="wCB-Vy-Knc" secondAttribute="trailing" constant="16" id="tmU-al-LsU"/>
+                            <constraint firstItem="ofJ-Sl-n5E" firstAttribute="top" secondItem="wCB-Vy-Knc" secondAttribute="bottom" constant="16" id="wwv-lP-any"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="drF-Yo-9MK"/>
+                    <connections>
+                        <outlet property="buttonFace" destination="ofJ-Sl-n5E" id="VGt-Wu-3i1"/>
+                        <outlet property="buttonFullEkyc" destination="bYJ-9q-6IV" id="S8U-c6-geq"/>
+                        <outlet property="buttonOCR" destination="wCB-Vy-Knc" id="7QK-xp-RqR"/>
+                        <outlet property="labelTitle" destination="Vs8-rH-SkL" id="LBf-BC-tmB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994.6564885496183" y="3.5211267605633805"/>
+        </scene>
+        <!--Result Ekyc View Controller-->
+        <scene sceneID="ACs-w7-3PC">
+            <objects>
+                <viewController storyboardIdentifier="ResultEkyc" id="AUQ-Ww-V3K" customClass="ResultEkycViewController" customModule="VNPTeKYCSampleSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2SM-81-z1U"/>
+                        <viewControllerLayoutGuide type="bottom" id="ccU-SN-vCu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="02t-Y0-ayT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rc7-eC-nkh">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5ca-SB-Mv1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rc7-eC-nkh" secondAttribute="trailing" id="DSL-ti-X7F"/>
+                            <constraint firstItem="ccU-SN-vCu" firstAttribute="top" secondItem="rc7-eC-nkh" secondAttribute="bottom" id="fV3-7Y-lzY"/>
+                            <constraint firstItem="rc7-eC-nkh" firstAttribute="leading" secondItem="02t-Y0-ayT" secondAttribute="leading" id="iD3-1e-Eck"/>
+                            <constraint firstItem="rc7-eC-nkh" firstAttribute="top" secondItem="2SM-81-z1U" secondAttribute="bottom" id="nct-tm-mDv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableViewResult" destination="rc7-eC-nkh" id="k1J-Ir-fLd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8k-RO-UqM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1885" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
